@@ -1,0 +1,27 @@
+<div class="jumbotron">
+  <form name="theForm" novalidate class="my-form" ng-submit="onSubmit(theForm.$valid)">
+  <div class="container" ng-controller="MainCtrl">
+  <h1>Hello  {{data.name}}</h1><br/>
+  <input type='text' name="username" ng-model="data.name" required="required"/>
+  <h1>Ciao ciao  {{data.name}}</h1>
+  <p><input type="submit" class="btn-ajout" type="submit" value="Ajouter" /></p>
+</form>
+
+<pre>{{data | json}}</pre>
+</div>
+</div>
+
+<div class="row marketing">
+  <h4>piupiupiu</h4>
+  <p>
+    blablablabla
+  </p>
+
+  <h4>biubiubiu</h4>
+  <p>
+    blablablabla
+  </p>
+
+  <h4>miamiamiamia</h4>
+  <p>blablablablabla.</p>
+</div>
